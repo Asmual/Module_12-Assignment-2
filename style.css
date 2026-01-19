@@ -20,6 +20,9 @@ header{
   justify-content: space-between;
   align-items: center;
 }
+.navbar h2{
+  font-size: 35px;
+}
 .navbar span{
   background: linear-gradient(90deg, #ff4ecd, #ffcc00);
   -webkit-background-clip: text;
@@ -395,9 +398,39 @@ header{
     text-decoration: none;
     transition: 0.3s;
 }
+/* Footer Section */
+footer{
+  background-image: url("./B13-A02-TechWave/assets/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+}
+.fotter_TechWave span{
+  background: linear-gradient(90deg, #ff4ecd, #ffcc00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 
+}
+.Fotter_Container h1 {
+  font-size: 60px;
 
+}
 
+.Fotter_Container{
+  max-width: 1040px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Footer_social_Links{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+
+}
 
 
 
