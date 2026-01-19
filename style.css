@@ -208,3 +208,77 @@ header{
   font-weight: 300;
   text-transform: uppercase;
 }
+/* Techwave Section */
+.techwave_title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.techwave_title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+
+.techwave_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1040px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.techwave_container img {
+  width: 35px;
+  margin-bottom: 16px;
+}
+
+.techwave_container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.techwave_container p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgb(211, 199, 199);
+}
+
+.grid_box_1 {
+  grid-column: span 1; 
+  grid-row: span 2;
+  background-color: #3a18673d;
+  border-radius: 15px;
+  padding: 55px 25px;
+}
+
+.grid_box_2 {
+  grid-column: span 2;
+  background-color: #3a18673d;
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+
+.grid_box_3 {
+  grid-column: span 2;
+  background-color: #3a18673d;
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+
+.grid_box_4 {
+  grid-column: span 2;
+  background-color: #3a18673d;
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+
+.grid_box_5 {
+  grid-column: span 1;
+  background-color: #3a18673d;
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+/*  */
