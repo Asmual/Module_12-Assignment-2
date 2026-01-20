@@ -45,17 +45,16 @@ header{
   font-size: 16px;
   font-weight: 600;
   color: white;
-  background: linear-gradient( 60deg,#df39d4,#7920cd);
+  background: linear-gradient(-138deg, #8500c6, #ea57b9, #fff300);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px; 
-  border: 2px solid transparent;
   cursor: pointer;
   
 }
 .subscribe_button:hover{
-  border: 2px solid rgb(255, 255, 255);
+  background: linear-gradient( 60deg,#f15be7,#8927e6);
 }
 
 .hamburger_icon{
@@ -178,17 +177,23 @@ header{
 }
 
 .spotify_btn {
-  background: linear-gradient(90deg, #ff4ecd, #7b5cff);
+  background: linear-gradient(90deg,#ffcc00, #ff4ecd, #7b5cff);
   border: none;
   color: white;
 }
-
+.spotify_btn:hover {
+  background: linear-gradient(120deg, #ff4ecd, #7a5cffc1, #ffcc00);
+  color: white;
+}
 .Subscribe_btn {
   background-color: #1a0b2e15;
   color: #00FF88;
   border: 1.5px solid #00FF88;
 }
+.Subscribe_btn:hover {
+  background-color: #430d8e5e;
 
+}
 /*   About Section  */
 .About_container{
   max-width: 1040px;
