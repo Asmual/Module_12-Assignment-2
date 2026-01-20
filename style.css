@@ -20,6 +20,7 @@ header{
   justify-content: space-between;
   align-items: center;
 }
+
 .navbar h2{
   font-size: 35px;
 }
@@ -35,6 +36,8 @@ header{
   gap: 20px;
   list-style: none;
 }
+ 
+ 
 .subscribe_button{
   padding: 12px 16px;
   border: none;
@@ -51,6 +54,12 @@ header{
   gap: 8px; 
   
 }
+.hamburger_icon{
+  display: none;
+  width: 25px;
+  cursor: pointer;
+}
+
 
 /*   Hero Section  */
 
@@ -456,8 +465,130 @@ footer{
 }
 
 
-
-
 /* Responsiv */
 @media (max-width: 576px) {
+   .navbar{
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .hamburger_icon{
+    display: block;
+  }
+
+  .menu,.subscribe_button{
+    display: none;
+  }
+
+  /* Hero */
+  br{display: none;}
+  
+  .hero_Section{
+    min-height: auto;
+    padding: 80px 0 0px;
+  }
+
+  .hero_container{
+    max-width: 100%;
+    padding: 0 20px;
+    gap: 30px;
+ 
+  }
+  .hero_circle {
+    width: 80%;
+    height: 80%;
+    margin-left: 40px;
+}
+ .hero_mic {
+    width: 90px;
+    top: 40%;
+    left: 53%;
+}
+  .hero_text_container h1{
+    font-size: 42px;
+  }
+
+  .btn_container {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  .btn_container button{
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* About cards */
+  .About_text P{
+    padding: 0 30px;
+  }
+
+  .about_card_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 0 23px;
+    margin-bottom: 50px;
+  }
+
+  .ab_card{
+    margin-bottom: 0;
+  }
+
+
+  /* TechWave */
+.techwave_title h1 {
+    font-size: 30px;
+}
+  .techwave_container{
+    grid-template-columns: 1fr;
+    padding: 0 15px 0 15px;
+  }
+  .grid_box_1, .grid_box_2, .grid_box_3, .grid_box_4, .grid_box_5{
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  /* Featured */
+  .Featured_Container{
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .Featured_Content{
+    max-width: 100%;
+  }
+
+  /* Host */
+  .host_container {
+    padding: 40px 15px 0 15px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+  .host_card{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .host_content{
+    text-align: center;
+  }
+
+  .social_links{
+    justify-content: center;
+  }
+
+  /* Footer */
+ .Footer_social_Links{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.Footer_social_Links div{
+  max-width: 100%;
+}
+
 }
