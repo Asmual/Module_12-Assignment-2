@@ -88,6 +88,7 @@ header{
   height: 100%;
 }
 
+
 .hero_mic {
   position: absolute;
   width: 120px;
@@ -97,17 +98,35 @@ header{
 }
 
 
-.btn_new {
+
+.btn_new{
   position: absolute;
   top: 15px;
   right: 28px;
-  background-color: #1db954;
-  border: none;
-  color: #000000;
   padding: 6px 14px;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #1db954;
+  color: black;
+  border: none;
   border-radius: 20px;
+  cursor: default;
+  animation: newPulse 1.5s ease-in-out infinite;
+}
+
+/* Animation */
+
+@keyframes newPulse {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.10); 
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 
 
@@ -211,7 +230,10 @@ header{
   font-weight: 300;
   text-transform: uppercase;
 }
+
 /* Techwave Section */
+
+
 .techwave_title {
   text-align: center;
   margin-bottom: 50px;
@@ -284,7 +306,7 @@ header{
   border-radius: 15px;
   padding: 30px 25px;
 }
-/*  */
+/* Featured Section */
 
 
 
@@ -346,7 +368,7 @@ header{
     margin-bottom: 40px;
 }
 
-/* Main Card */
+
 .host_card {
     display: flex;
     align-items: center;
@@ -399,6 +421,7 @@ header{
     transition: 0.3s;
 }
 /* Footer Section */
+
 footer{
   background-image: url("./B13-A02-TechWave/assets/footer-bg.png");
   background-repeat: no-repeat;
@@ -414,7 +437,7 @@ footer{
 
 }
 .Fotter_Container h1 {
-  font-size: 60px;
+  font-size: 50px;
 
 }
 
@@ -427,11 +450,10 @@ footer{
 .Footer_social_Links{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 25px;
   margin: 20px 0;
 
 }
-
 
 
 
